@@ -6,8 +6,8 @@ Além da senha, podemos implementar formas de autenticação complementares, a d
 
 Será necessário construir:​
 
-1 - Detector de faces​;
-2 - Identificação de faces​;
-3 - Detecção de vivacidade (liveness) para evitar que um fraudador utilize uma foto estática.
+* Detector de faces​;
+* Identificação de faces​;
+* Detecção de vivacidade (liveness) para evitar que um fraudador utilize uma foto estática.
 
 Grave um video da aplicação sendo executada e envie.
