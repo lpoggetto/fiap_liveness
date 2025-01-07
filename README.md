@@ -15,15 +15,20 @@ o trabalho de visão computacional apresenta alguns steps conforme as seções d
 3. Importação de pacotes Utilizados;
 4. Criação de uma pasta para armazenamento do vídeo gravado e modelos utilizados (dlib);
 5. Baixar os modelos do dlib na pasta disponibilizada anteriormente;
-6. Através de um código JavaScript, realizamos a captura de um video no colab e o exportamos com a formatação (webm);
-7. Devemos baixar o video disponibilizado anteriormente e adicionar na mesma pasta criada (/content/videos/recorded-video.webm);
-8. Executar o detector de faces e cálculo de prova de vida válida (Validar se o usuário do vídeo piscou os olhos).
-9. Após a execução do vídeo, nós teremos um output com o prefixo "_processado" (/content/videos/recorded-video_processado.webm), e nele é possível identificarmos a validação de prova de vida e detecção facial.
+6. Realizar a captura de uma foto "base" utilizada no algoritimo de similaridade
+7. Realizar uma nova captura para que seja feita uma comparação com a face base disponibilizada anteriormente;
+9. Através de um código JavaScript, realizamos a captura de um video no colab e o exportamos com a formatação (webm);
+10. Devemos baixar o video disponibilizado anteriormente e adicionar na mesma pasta criada (/content/videos/recorded-video.webm);
+11. Executar o detector de faces e cálculo de prova de vida válida (Validar se o usuário do vídeo piscou os olhos).
+12. Após a execução do vídeo, nós teremos um output com o prefixo "_processado" (/content/videos/recorded-video_processado.webm), e nele é possível identificarmos a validação de prova de vida e detecção facial.
 
-### Codigo utilizado para o trabalho
 <a target="_blank" href="https://colab.research.google.com/github/lpoggetto/fiap_liveness/blob/main/trabalho_computer_vision.ipynb">
   <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
 </a>
 
-# Exemplo de funcionamento do código - Output
+# Exemplo de funcionamento do código - etapa de face recogntion
+
+
+
+# Exemplo de funcionamento do código - etapa de liveness
 ![caption](https://github.com/lpoggetto/fiap_liveness/blob/main/arquivos/recorded-video_processado.gif)
