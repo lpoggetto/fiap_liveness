@@ -1,13 +1,15 @@
-# fiap_liveness
+# Trabalho de Visão Computacional - FIAP
 
-O setor de fraudes apontou que existem clientes que se queixaram de não contratar serviços específicos, como o crédito pessoal. No entanto, os protocolos de segurança da senha foram realizados em conformidade, cada cliente autenticou com sua própria senha.​ Em função disso, o banco precisa arcar com reembolsos e medidas de contenção para evitar processos judiciais, pois os clientes alegam terem sido invadidos por hackers ou algo similar.​
+### Modo de uso do código.
 
-Além da senha, podemos implementar formas de autenticação complementares, a depender do serviço, que utilizasse uma verificação e identificação facial. Caso o cliente não seja autenticado, ele será atendido por uma esteira dedicada e as evidências da não identificação serão encaminhadas para a área de IA para validação dos parâmetros e limiares para aperfeiçoamento do modelo.
+o trabalho de visão computacional apresenta alguns steps conforme as seções descritas no colab.
 
-Será necessário construir:​
-
-* Detector de faces​;
-* Identificação de faces​;
-* Detecção de vivacidade (liveness) para evitar que um fraudador utilize uma foto estática.
-
-Grave um video da aplicação sendo executada e envie.
+1. Limpeza de pasta no colab para a criação de pastas utilizadas no trabalho;
+2. Instalação de pacotes que são utilizados no código (dlib, mediapipe, DFSD);
+3. Importação de pacotes Utilizados;
+4. Criação de uma pasta para armazenamento do vídeo gravado e modelos utilizados (dlib);
+5. Baixar os modelos do dlib na pasta disponibilizada anteriormente;
+6. Através de um código JavaScript, realizamos a captura de um video no colab e o exportamos com a formatação (webm);
+7. Devemos baixar o video disponibilizado anteriormente e adicionar na mesma pasta criada (/content/videos/recorded-video.webm);
+8. Executar o detector de faces e cálculo de prova de vida válida (Validar se o usuário do vídeo piscou os olhos).
+9. Após a execução do vídeo, nós teremos um output com o prefixo "_processado" (/content/videos/recorded-video_processado.webm), e nele é possível identificarmos a validação de prova de vida e detecção facial.
