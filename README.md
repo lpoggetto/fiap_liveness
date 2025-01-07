@@ -29,13 +29,13 @@ o trabalho de visão computacional apresenta alguns steps conforme as seções d
 # Exemplo de funcionamento do código - etapa de face recogntion
 
 # Foto base utilizada para comparação
-![Alt text] (https://github.com/lpoggetto/fiap_liveness/blob/main/arquivos/foto_base.jpg)
+![plot] (https://github.com/lpoggetto/fiap_liveness/blob/main/arquivos/foto_base.jpg)
 
 # Retorno de recognition positivo
-![Alt text] (https://github.com/lpoggetto/fiap_liveness/blob/main/arquivos/recognition_ok.png)
+![plot] (https://github.com/lpoggetto/fiap_liveness/blob/main/arquivos/recognition_ok.png)
 
 # Retorno de recognition negativo
-![Alt text] (https://github.com/lpoggetto/fiap_liveness/blob/main/arquivos/recognition_nok.png)
+![plot] (https://github.com/lpoggetto/fiap_liveness/blob/main/arquivos/recognition_nok.png)
 
 # Exemplo de funcionamento do código - etapa de liveness
 ![caption](https://github.com/lpoggetto/fiap_liveness/blob/main/arquivos/recorded-video_processado.gif)
