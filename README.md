@@ -15,6 +15,6 @@ o trabalho de visão computacional apresenta alguns steps conforme as seções d
 9. Após a execução do vídeo, nós teremos um output com o prefixo "_processado" (/content/videos/recorded-video_processado.webm), e nele é possível identificarmos a validação de prova de vida e detecção facial.
 
 ### Codigo utilizado para o trabalho
-<a target="_blank" href="https://colab.research.google.com/github/lpoggetto/fiap_liveness/blob/main/trabalho_computer_vision.ipynb">
+<a target="_blank" href="https://github.com/lpoggetto/fiap_liveness/blob/main/trabalho_computer_vision.ipynb">
   <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
 </a>
