@@ -19,4 +19,5 @@ o trabalho de visão computacional apresenta alguns steps conforme as seções d
   <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
 </a>
 
+# Exemplo de funcionamento do código - Output
 ![caption](https://github.com/lpoggetto/fiap_liveness/blob/main/arquivos/recorded-video_processado.gif)
