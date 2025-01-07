@@ -38,4 +38,5 @@ o trabalho de visão computacional apresenta alguns steps conforme as seções d
 ![alt text](https://github.com/lpoggetto/fiap_liveness/blob/main/arquivos/recognition_nok.png)
 
 # Exemplo de funcionamento do código - etapa de liveness
+Etapa de liveness é validada a partir do momento em que é identificado que o usuário piscou os olhos
 ![caption](https://github.com/lpoggetto/fiap_liveness/blob/main/arquivos/recorded-video_processado.gif)
