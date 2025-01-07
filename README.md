@@ -14,4 +14,6 @@ o trabalho de visão computacional apresenta alguns steps conforme as seções d
 8. Executar o detector de faces e cálculo de prova de vida válida (Validar se o usuário do vídeo piscou os olhos).
 9. Após a execução do vídeo, nós teremos um output com o prefixo "_processado" (/content/videos/recorded-video_processado.webm), e nele é possível identificarmos a validação de prova de vida e detecção facial.
 
-https://camo.githubusercontent.com/96889048f8a9014fdeba2a891f97150c6aac6e723f5190236b10215a97ed41f3/68747470733a2f2f636f6c61622e72657365617263682e676f6f676c652e636f6d2f6173736574732f636f6c61622d62616467652e737667
+<a target="_blank" href="https://colab.research.google.com/github/lpoggetto/fiap_liveness/blob/main/trabalho_computer_vision.ipynb">
+  <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
+</a>
