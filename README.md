@@ -4,7 +4,12 @@
 * Cleber Veiga Galvão - 356846
 * Danildo André Amorim dos Santos - 355182
 * Victor Marcio Hayee Falcão -  354955
-* Lucas Ribeiro Del Poggetto - 355220 
+* Lucas Ribeiro Del Poggetto - 355220
+
+### Link para o código utilizado
+<a target="_blank" href="https://colab.research.google.com/github/lpoggetto/fiap_liveness/blob/main/trabalho_computer_vision.ipynb">
+  <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
+</a>
 
 ### Modo de uso do código.
 
@@ -22,21 +27,18 @@ o trabalho de visão computacional apresenta alguns steps conforme as seções d
 11. Executar o detector de faces e cálculo de prova de vida válida (Validar se o usuário do vídeo piscou os olhos).
 12. Após a execução do vídeo, nós teremos um output com o prefixo "_processado" (/content/videos/recorded-video_processado.webm), e nele é possível identificarmos a validação de prova de vida e detecção facial.
 
-<a target="_blank" href="https://colab.research.google.com/github/lpoggetto/fiap_liveness/blob/main/trabalho_computer_vision.ipynb">
-  <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
-</a>
+### Exemplo de funcionamento do código - etapa de face recogntion
 
-# Exemplo de funcionamento do código - etapa de face recogntion
-
-# Foto base utilizada para comparação
+#### Foto base utilizada para comparação
 ![alt text](https://github.com/lpoggetto/fiap_liveness/blob/main/arquivos/foto_base.jpg)
 
-# Retorno de recognition positivo
+#### Retorno de recognition positivo
 ![alt text](https://github.com/lpoggetto/fiap_liveness/blob/main/arquivos/recognition_ok.png)
 
-# Retorno de recognition negativo
+#### Retorno de recognition negativo
 ![alt text](https://github.com/lpoggetto/fiap_liveness/blob/main/arquivos/recognition_nok.png)
 
-# Exemplo de funcionamento do código - etapa de liveness
+### Exemplo de funcionamento do código - etapa de liveness
 Etapa de liveness é validada a partir do momento em que é identificado que o usuário piscou os olhos
+
 ![caption](https://github.com/lpoggetto/fiap_liveness/blob/main/arquivos/recorded-video_processado.gif)
