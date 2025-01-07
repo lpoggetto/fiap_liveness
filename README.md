@@ -1,5 +1,11 @@
 # Trabalho de Visão Computacional - FIAP
 
+## Integrantes do grupo
+* Cleber Veiga Galvão - 356846
+* Danildo André Amorim dos Santos - 355182
+* Victor Marcio Hayee Falcão -  354955
+* Lucas Ribeiro Del Poggetto - 355220 
+
 ### Modo de uso do código.
 
 o trabalho de visão computacional apresenta alguns steps conforme as seções descritas no colab.
